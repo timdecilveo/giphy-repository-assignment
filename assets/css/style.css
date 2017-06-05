@@ -1,0 +1,106 @@
+body {
+	background-color:black;
+	background-image:
+		radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+		radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+		radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+		radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header {
+	color: #F0F8FF;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	color: #F0F8FF;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+	color: #F0F8FF;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+div{
+	color: #F0F8FF;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#sports-form{
+	text-align: center;
+	margin-bottom: -35px;
+}
+
+#buttons-view {
+	text-align: center;
+}
+
+button.sport{
+	margin-right: 5px;
+	background-color: black;
+	background-image:
+		radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+		radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+		radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+		radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	border-style: solid;
+	border-color: #F0F8FF;
+	color: #F0F8FF;
+	padding: 5px 5px;
+	text-align: center;
+	font-size: 16px;
+
+}
+
+#stillGifOnPage, #movingGifOnPage {
+	color: #F0F8FF;
+	font-style: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+img{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+/* ------------------- Media Queries -------------------- */
+/*Desktop Media Query*/
+@media screen and (max-width: 980px) {
+	body {
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*Tablet Media Query*/
+@media screen and (max-width: 768px) {
+	body {
+		width: 480px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*Smartphone Media Query*/
+@media screen and (max-width: 640px) {
+	body {
+		width: 370px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
