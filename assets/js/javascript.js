@@ -48,6 +48,8 @@ $(document).ready(function(){
 						// to the below code. It keeps registering an error and saying it's not a function.
 						// I know it's not a function, but shouldn't I be able to pass that through so I can
 						// reference each specific gif I click on?
+						// TYLER: Don't quite understand where you're trying to attach the code to… Let's go
+						// over this during office hours if you're dying to track this down.
 						$("#stillGifOnPage").on("click", function(){
 
 							$("#stillGifOnPage").hide();
